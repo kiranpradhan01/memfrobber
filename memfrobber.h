@@ -6,4 +6,4 @@
 
 // struct frobber *frobthat(char *s);
 
-char* memfrobber(char* s) {
+void* memfrobber(char s[]) {

@@ -19,8 +19,8 @@ struct frobber *frobthat(char *s) {
     return new_frob;
 } */
 
-char* memfrobber(char* s) {
+void* memfrobber(char s[]) {
     int len = strlen(s);
-    char *frob = memfrob(s, len);
+    void *frob = memfrob(s, len);
     return frob;
 }
