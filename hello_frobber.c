@@ -7,5 +7,5 @@
 
 int main() {
     // argv[1] should be today's date
-    printf(memfrobber("Hello world on this beautiful Mon Dec  9 10:56:59 PST 2019"));
+    printf("%p", memfrobber("Hello world on this beautiful Mon Dec  9 11:17:31 PST 2019"));
 }
