@@ -1,5 +1,5 @@
 hello_frobber: hello_frobber.o memfrobber.o
-	cc -o hello_frobber main.o memfrobber.o
+	cc -o hello_frobber.o memfrobber.o
 hello_frobber.o: hello_frobber.c memfrobber.h
 	cc -c hello_frobber.c
 memfrobber.o: memfrobber.c memfrobber.h
