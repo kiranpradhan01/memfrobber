@@ -6,6 +6,6 @@
 #include "memfrobber.h"
 
 int main() {
-    // argv[1] should be today's date
-    printf("%p", memfrobber("Hello world on this beautiful foo"));
+    char s[] = "Hello world on this beautiful foo";
+    printf("%p", memfrobber(s));
 }
